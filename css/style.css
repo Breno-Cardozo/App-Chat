@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration:none;
+    color: #BCE6E2;
+    font-weight:500;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height: 100vh;
+    background: #023535;
+}
+
+.wrapper{
+    background: none;
+    width: 450px;
+    border-radius: 20px;
+    border: 2px solid #0FC2C0;
+    box-shadow: 0px 0px 10px 0px #0FC2C0;
+
+}
+
+
+.form{
+    padding:25px 30px;
+}
+
+.form header{
+    font-size: 25px;
+    font-weight: 700;
+    padding-bottom:16px;
+    text-align:center;
+    border-bottom:1px solid #0FC2C0;
+}
+
+.form form {
+    margin:24px 0;
+}
+
+.form form .error-txt{
+    color: #BCE6E2;
+    background: #015958;
+    padding:8px 10px;
+    border-radius:5px;
+    margin-bottom:16px;
+    text-align:center;
+}
+
+form .name-details .field:first-child{
+    margin-right: 10px;
+}
+
+.form form .field{
+    display:flex;
+    flex-direction: column;
+    margin-bottom:8px;
+}
+
+.form form .field input{
+    outline: none;
+}
+
+.form form .input input{
+    height:40px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0 10px;
+    border: 1px solid #0FC2C0;
+    border-radius: 5px;
+    background:none;
+}
+
+.form form .input input::placeholder{
+    color: #99DBD8;
+    font-size: 14px;
+}
+
+.form form .image input{
+    font-size:17px;
+}
+
+.form form .button input{
+    margin-top:13px;
+    height:35px;
+    border:1px solid #0FC2C0;
+    background: none;
+    border-radius:5px;
+    font-weight:500;
+    font-size:17px;
+    color: #BCE6E2;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.form form .button input:hover{    
+    background: #12E2DD;
+    color:#064746;
+}
+
+.form .link{
+    text-align:center;
+    margin: 10px 0;
+    font-size:17px
+}
+
+.form .link a{
+    color: #0FC2C0;
+}
+
+.form .link a:hover{
+    color: #12E2DD;
+}

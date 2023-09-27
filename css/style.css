@@ -211,7 +211,7 @@ form .name-details .field:first-child{
     overflow-y:auto;
 }
 
-.users-list::-webkit-scrollbar{
+:is(.chat-box, .users-list )::-webkit-scrollbar{
     width: 0px;
 }
 
@@ -272,6 +272,7 @@ form .name-details .field:first-child{
 
 .chat-box{
     height:500px;
+    overflow-y: auto;
     background: #010f0f;
     padding: 10px 30px 20px 30px;
 }
@@ -281,6 +282,7 @@ form .name-details .field:first-child{
 }
 
 .chat-box .chat p{
+    word-break: break-word;
     padding: 8px 16px;
     box-shadow: 0 0 32px rgb(0 0 0 / 8%),
                 0 16px 16px -16px rgb(0 0 0 / 10%)
@@ -320,4 +322,35 @@ form .name-details .field:first-child{
     background: #0FC2C0;
     color: #333;
     border-radius: 18px 18px 18px 0;
+}
+
+
+.chat-area .typing-area{
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.typing-area input{
+    height:45px;
+    width: calc(100% - 58px);
+    font-size: 17px;
+    border: none;
+    padding: 0 13px;
+    border-radius: 5px 0 0 5px;
+    background:#012424;
+    outline: none; 
+}
+
+.typing-area button{
+    width:55px;
+    outline: none;
+    border: none;
+    background: #012424;
+    border-radius: 0 5px 5px 0;
+}
+
+.typing-area i{
+    font-size:30px;
+    text-align:center;
 }

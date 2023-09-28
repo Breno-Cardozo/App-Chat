@@ -68,6 +68,29 @@ form .name-details .field:first-child{
     outline: none;
 }
 
+
+.form form > .field.image label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 13px;
+    border: none;
+    padding: 0.5rem 0;
+    background-color: #012424;
+    border-radius: 5px;
+}
+
+
+.form form > .field.image i {
+    color: #0FC2C0;
+    font-size: 20px;
+}
+
+.form form > .field.image input {
+    display: none;
+}
+
 .form form .input input{
     height:40px;
     width: 100%;
@@ -237,7 +260,7 @@ form .name-details .field:first-child{
 .users-list a {
     padding-right:15px;
     padding-bottom:15px;
-    page=break-after: 10px;
+    page-break-after: 10px;
 }
 
 .users-list a:last child{

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    
+    <script src="https://kit.fontawesome.com/55e75e1d5a.js" crossorigin="anonymous"></script>
     <title>App Chat</title>
 </head>
 <body>
@@ -32,8 +32,12 @@
                             <input type="password" name="password" placeholder="Entre com sua senha" required>
                         </div>
                         <div class="field image">
-                            <label>Escolha sua foto de perfil</label>
-                            <input type="file" name="image" required>
+                            <label for="image">
+                                <i class="fa-regular fa-image "></i>    
+                                Escolha sua foto de perfil
+                            </label>
+                            
+                            <input type="file" id="image" name="image" required>
                         </div>
                         <div class="field button">
                             <input type="submit" value="Entrar">

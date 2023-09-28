@@ -9,37 +9,23 @@
 </head>
 <body>
     <div class="wrapper">
-        <section class="form signup">
+        <section class="form login">
             <header>App Chat</header>
             <form action="#">
                 <div class="error-txt">Essa é uma mensagem de erro!</div>
-                    <div class="name-details">
-                        <div class="field input">
-                            <label>Primeiro nome</label>
-                            <input type="text" placeholder="Primeiro nome">
-                        </div>
-                        <div class="field input">
-                            <label>Último nome</label>
-                            <input type="text" placeholder="Último nome">
-                        </div>
-                    </div>
                         <div class="field input">
                             <label>Endereço de e-mail</label>
                             <input type="text" placeholder="Entre com seu e-mail">
                         </div>
                         <div class="field input">
                             <label>Senha</label>
-                            <input type="text" placeholder="Entre com sua senha">
-                        </div>
-                        <div class="field image">
-                            <label>Escolha sua foto de perfil</label>
-                            <input type="file">
+                            <input type="password" placeholder="Entre com sua senha">
                         </div>
                         <div class="field button">
                             <input type="submit" value="Entrar">
                         </div>
             </form>
-            <div class="link">Já é cadastrado? <a href="#">Faça o Login agora!</a></div>
+            <div class="link">Ainda não é cadastrado? <a href="#">Cadastre-se agora</a></div>
         </section>
     </div>
 </body>

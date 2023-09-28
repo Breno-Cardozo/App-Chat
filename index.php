@@ -11,7 +11,7 @@
     <div class="wrapper">
         <section class="form signup">
             <header>App Chat</header>
-            <form action="#" enctype="multipart/form-data">
+            <form action="users.php" enctype="multipart/form-data">
                 <div class="error-txt"></div>
                     <div class="name-details">
                         <div class="field input">

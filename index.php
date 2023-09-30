@@ -43,7 +43,7 @@
                             <input type="submit" value="Entrar">
                         </div>
             </form>
-            <div class="link">Já é cadastrado? <a href="#">Faça o Login agora!</a></div>
+            <div class="link">Já é cadastrado? <a href="login.php">Faça o Login agora!</a></div>
         </section>
     </div>
     <script src="js/signup.js"></script>

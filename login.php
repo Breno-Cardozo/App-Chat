@@ -12,21 +12,22 @@
         <section class="form login">
             <header>App Chat</header>
             <form action="#">
-                <div class="error-txt">Essa é uma mensagem de erro!</div>
+                <div class="error-txt"></div>
                         <div class="field input">
                             <label>Endereço de e-mail</label>
-                            <input type="text" placeholder="Entre com seu e-mail">
+                            <input type="text" name="email" placeholder="Entre com seu e-mail">
                         </div>
                         <div class="field input">
                             <label>Senha</label>
-                            <input type="password" placeholder="Entre com sua senha">
+                            <input type="password" name="password" placeholder="Entre com sua senha">
                         </div>
                         <div class="field button">
                             <input type="submit" value="Entrar">
                         </div>
             </form>
-            <div class="link">Ainda não é cadastrado? <a href="#">Cadastre-se agora</a></div>
+            <div class="link">Ainda não é cadastrado? <a href="index.php">Cadastre-se agora</a></div>
         </section>
     </div>
+    <script src="js/login.js"></script>
 </body>
 </html>

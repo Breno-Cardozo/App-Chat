@@ -36,40 +36,7 @@
                     </div>
             </header> 
             <div class="chat-box">
-               <div class="chat outgoing">
-                   <div class="details">
-                       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odit beatae? Laboriosam placeat officia quidem rerum, sit, vero suscipit porro aspernatur magni fuga et ratione, perspiciatis qui modi. Corporis, excepturi?</p>
-                   </div>
-               </div>
-               <div class="chat incoming">
-                    <img src="laurinha.jpg" alt="">
-                        <div class="details">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        </div>
             </div>
-            <div class="chat outgoing">
-                <div class="details">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odit beatae? Laboriosam placeat officia quidem rerum, sit, vero suscipit porro aspernatur magni fuga et ratione, perspiciatis qui modi. Corporis, excepturi?</p>
-                </div>
-            </div>
-            <div class="chat incoming">
-                 <img src="laurinha.jpg" alt="">
-                     <div class="details">
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                     </div>
-         </div>
-         <div class="chat outgoing">
-            <div class="details">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, odit beatae? Laboriosam placeat officia quidem rerum, sit, vero suscipit porro aspernatur magni fuga et ratione, perspiciatis qui modi. Corporis, excepturi?</p>
-            </div>
-        </div>
-        <div class="chat incoming">
-             <img src="laurinha.jpg" alt="">
-                 <div class="details">
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                 </div>
-     </div>
-    </div>
     <form action="#" class="typing-area">
         <input type="text" name="outgoing_id" value="<?php echo $_SESSION['unique_id']; ?>" hidden>
         <input type="text" name="incoming_id" value="<?php echo $user_id; ?>" hidden>

@@ -332,9 +332,10 @@ form .name-details .field:first-child{
 
 .chat-box .outgoing{
     display: flex;
+    justify-content: flex-end;
 }
 
-.outgoing ,details{
+.outgoing .details{
     margin-left:auto;
     max-width: calc(100% - 130px);
 }
@@ -346,7 +347,7 @@ form .name-details .field:first-child{
 
 .chat-box .incoming{
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-start;
 }
 
 .chat-box .incoming img{
